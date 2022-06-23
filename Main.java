@@ -1,0 +1,1 @@
+import java.util.*;class Main{    public static void main(String[] args)    {		LinkedList<Integer> list = new LinkedList<Integer>();		list.add(101);		list.add(102);		list.add(103);		System.out.println(list);				list.addFirst(1);		list.addLast(400);		System.out.println(list);	}}
